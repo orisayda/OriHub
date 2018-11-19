@@ -1,0 +1,48 @@
+.contactForm {
+    background-color: #252934;
+    padding: 30px 50px;
+    padding-bottom: 80px;
+    border-radius: 50px;
+}
+
+.formFields {
+    background-color: #252934;
+    border-radius: 5px;
+    padding: 2px;
+    margin: 5px;
+    width: 50%;
+    height: 3em;
+    color: #fff;
+}
+textarea.formFields {
+    height: 8em;
+}
+
+@media (max-width:767px) {
+  .formFields {
+    width: 100%;
+}
+}
+
+.submitFormBtn {
+    background-color: #252934;
+    color: #fff;
+    padding: 7px 20px;
+    font-size: 1.4em;
+    border-width: 1px;
+    border-radius: 5px;
+}
+
+
+.submitFormBtn:hover {
+    background-color: #ffcc00;
+    color: #252934;
+    padding: 7px 20px;
+    font-size: 1.4em;
+    border-color: #252934;
+    border-radius: 5px;
+}
+
+.onBlackTitle {
+    color: #fff;
+}

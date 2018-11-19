@@ -1,0 +1,42 @@
+
+.canv {
+    height: 100vh;
+  margin: 0;
+  padding: 0;
+    z-index: 10;
+}
+
+.bgStyles {
+    
+}
+
+ .textStyles {
+      position: absolute;
+    top: 0;
+    color: #fff;
+    font-size: 32pt;
+    line-height: 36pt;
+    font-family: 'Myriad Pro'; 
+    margin: 40vh 48vh;
+    letter-spacing: 0.4em;
+    padding-left: 1em;
+     
+}
+
+@media (max-width:927px) {
+   .textStyles {
+     
+    color: #fff;
+    font-size: 16pt;
+    
+    font-family: 'Myriad Pro'; 
+    letter-spacing: 0.4em;
+    padding-left: 1em;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40vh 5%;
+    
+}
+
+}

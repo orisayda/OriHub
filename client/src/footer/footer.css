@@ -1,0 +1,26 @@
+.footer {
+    bottom: 0;
+    text-align: center;
+
+  min-height: 100px;
+  max-height: 110px;
+  margin: auto;
+  
+    margin-top: 20px;
+}
+
+.container-lg {
+    max-width: 1012px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.position-relative {
+    padding-top: 40px!important;
+    padding-bottom: 8px!important;
+    justify-content: space-between!important;
+}
+
+ul.list-style-none {
+    list-style: none;
+}

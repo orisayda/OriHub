@@ -1,0 +1,97 @@
+nav.NavBarMain {
+  text-align: center;
+    padding: 0;
+    
+}
+
+.navBarUlist {
+    width: 100%;
+}
+
+.myNavBarToggler {
+    margin: 8px 8px;
+    display: block;
+    margin-top: 0;
+}
+
+.containerNav {
+    margin: 0;
+}
+
+li.nav-item {
+    margin: 0;
+}
+
+.MyDropDown {
+    padding-left: 10px;
+    padding-top: 8px;
+}
+
+.navBarLogo {
+    width:130px; 
+    height:30px;
+}
+
+.navBarItems {
+    padding: 5px 5px;
+    color: #fff;
+}
+
+.navbar-nav .nav-link {
+    padding-left: 7px;
+}
+
+.navBarLinks {
+    text-align: left;
+    padding-left: 20px;
+    text-decoration: none; 
+    color: #fff;
+}
+
+.navBarLinks:hover {
+    text-decoration: none; 
+    color: #EFE8E8;
+}
+ 
+.navBarLinkLogo {
+    padding-bottom: 15px;
+    margin: 0;
+    float: right;
+}
+
+.navBarItemRight {
+    padding: 0;
+}
+
+@media (max-width:991px) {
+  .navBarItemRight {
+    display: none;
+}
+
+}
+
+.divNavBar {
+    padding-left: 17%;
+}
+
+@media (max-width:767px) {
+  .divNavBar {
+      padding: 0;
+  }
+}
+
+
+.listNavBar {
+    padding-right: 20%;
+}
+
+.navBarProfilePic {
+    width: 23px;
+    height: 23px;
+    border-radius: 3px;
+}
+
+.dropdown-item.active {
+    color: black;
+    background-color: #EFE8E8;
+}

@@ -1,0 +1,91 @@
+
+
+.filescard {
+    margin: auto;
+    
+}
+
+
+
+ol.pinned-repos-list {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0;
+    
+}
+
+ol {
+    padding-right: 0;
+    padding-left: 0;
+    margin-top: 0;
+}
+
+.repoBoxTitle {
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    text-align: left;
+    margin-bottom: 8px;
+    padding-left: 15px;
+}
+
+
+.infoCard {
+    padding: 0;
+}
+
+.mainFilesCard {
+    padding: 0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #c8e1ff;
+    width: 100%;
+}
+
+@media (max-width:767px) {
+  .mainFilesCard {
+    padding: 0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #c8e1ff;
+    width: 100%;
+    }
+}
+
+.mainFilesCardWithOutBorder {
+    padding: 0;
+    border: none;
+    width: 100%;
+}
+
+.repoCard {
+    margin-left: 0;
+    padding-right: 16px !important;
+    padding-top: 0 !important;
+    margin-bottom: 16px !important;
+    text-align: left;
+}
+
+
+.container-lg {
+    max-width: 1012px;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+ul.list-style-none {
+    list-style: none;
+}
+
+.isLoading {
+    margin: auto;
+    text-align: center;
+    tab-size: 400;
+}
+
+
+

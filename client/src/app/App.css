@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+    margin: auto;
+    min-height: 550px;
+}
+
+
+.appContainer {
+    min-height: 550px;
+    
+}
+
+.App-main {
+      
+      
+}
+
+a {
+    color: inherit;
+}
+
+.repoView {
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+    box-sizing: border-box;
+    
+    
+}
+
+ol {
+    padding-right: 0;
+    padding-left: 0;
+    margin-top: 0;
+}
+
+.container-lg {
+    max-width: 1012px;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+ul {
+    list-style: none;
+}

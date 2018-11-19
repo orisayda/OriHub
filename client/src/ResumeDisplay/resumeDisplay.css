@@ -1,0 +1,29 @@
+ul.myResume {
+    padding: 0;
+}
+
+img.picResume {
+    width:100%; 
+    height:1212px;
+    margin: auto;
+}
+
+@media (max-width:767px) {
+  img.picResume {
+   width:100%; 
+}
+
+}
+
+.resumeBody {
+    padding: 0;
+    width:100%; 
+    height:1213px;
+}
+
+.resumeCard {
+    width:90%px; 
+    height:1260px;
+    margin: auto;
+    margin-bottom: 40px;
+}
