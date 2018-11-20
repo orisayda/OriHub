@@ -251,16 +251,16 @@ sendEmailToMe = (name,email,subject,message) => {
 //       }
 //   })
 //});
-//
-// app.listen(3004, function() {
-//     console.log("Swag Shop API running on port 3004...");
-// });
+
+app.listen(3000, function() {
+    console.log("Ori Hub API running on port 3000...");
+});
 
 
 app.get('*', (req, res)=>{
   res.sendFile(path.join(__dirname, '../build/index.html'));
 })
 
-app.listen(3004,'18.191.227.92', function() {
-   console.log("Ori Hub API running on port 3004...");
-});
+// app.listen(3004,'18.191.227.92', function() {
+//    console.log("Ori Hub API running on port 3004...");
+// });
