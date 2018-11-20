@@ -21,7 +21,7 @@ class HttpService {
 	      mode: 'no-cors',
               headers: {
                 'Content-Type': 'application/json',
-		      'Access-Control-Allow-Origin':'*',
+		     
               },
               body: JSON.stringify({
                 "fileName": newFileName,
@@ -40,7 +40,7 @@ class HttpService {
 	      mode: 'no-cors',
               headers: {
                 'Content-Type': 'application/json',
-		      'Access-Control-Allow-Origin':'*',
+		      
               },
               body: JSON.stringify({
                   "name": name,
@@ -61,7 +61,7 @@ class HttpService {
 		   mode: 'no-cors',
               headers: {
                 'Content-Type': 'application/json',
-		      'Access-Control-Allow-Origin':'*',
+		     
               },
               body: JSON.stringify({
                 "fileName": newFileName,
@@ -79,7 +79,7 @@ class HttpService {
 		   mode: 'no-cors', 
 		   headers: {
                 'Content-Type': 'application/json',
-		      'Access-Control-Allow-Origin':'*',
+		     
               }
 		}).then(response => {
               resolve(response);  
@@ -94,7 +94,7 @@ class HttpService {
 		   mode: 'no-cors', 
 		   headers: {
                 'Content-Type': 'application/json',
-		      'Access-Control-Allow-Origin':'*',
+		      
               }
 		}).then(response => {
                 resolve(response.blob());
