@@ -20,7 +20,8 @@ class HttpService {
               method: 'POST',
 	      mode: 'no-cors',
               headers: {
-                'Content-Type': 'application/json'
+                'Content-Type': 'application/json',
+		      'Access-Control-Allow-Origin':'*',
               },
               body: JSON.stringify({
                 "fileName": newFileName,
@@ -38,7 +39,8 @@ class HttpService {
                method: 'POST',
 	      mode: 'no-cors',
               headers: {
-                'Content-Type': 'application/json'
+                'Content-Type': 'application/json',
+		      'Access-Control-Allow-Origin':'*',
               },
               body: JSON.stringify({
                   "name": name,
@@ -58,7 +60,8 @@ class HttpService {
                method: 'POST',
 		   mode: 'no-cors',
               headers: {
-                'Content-Type': 'application/json'
+                'Content-Type': 'application/json',
+		      'Access-Control-Allow-Origin':'*',
               },
               body: JSON.stringify({
                 "fileName": newFileName,
@@ -72,7 +75,13 @@ class HttpService {
     
      getFile = () => {
         var promiseFile = new Promise((resolve, reject) => {
-           fetch(httpUrl+'resumeOS',{mode: 'no-cors'}).then(response => {
+           fetch(httpUrl+'resumeOS', { 
+		   mode: 'no-cors', 
+		   headers: {
+                'Content-Type': 'application/json',
+		      'Access-Control-Allow-Origin':'*',
+              }
+		}).then(response => {
               resolve(response);  
            }) 
         });
@@ -81,7 +90,13 @@ class HttpService {
     
      getImg = () => {
          var promiseAnImg = new Promise((resolve, reject) => {
-           fetch(httpUrl+'resumeOS',{mode: 'no-cors'}).then(response => {
+           fetch(httpUrl+'resumeOS',{ 
+		   mode: 'no-cors', 
+		   headers: {
+                'Content-Type': 'application/json',
+		      'Access-Control-Allow-Origin':'*',
+              }
+		}).then(response => {
                 resolve(response.blob());
            }) 
         });
