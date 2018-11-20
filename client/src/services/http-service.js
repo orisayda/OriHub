@@ -19,7 +19,6 @@ class HttpService {
         var promiseProjects = new Promise((resolve, reject) => {
             fetch(httpUrl+'folder/projects', {
               method: 'POST',
-	      mode: 'no-cors',
               headers: {
                 'Content-Type': 'application/json',
 		     
@@ -40,7 +39,7 @@ class HttpService {
         var promiseMailSend = new Promise((resolve, reject) => {
            fetch(httpUrl+'sendMeEmail', {
                method: 'POST',
-	      mode: 'no-cors',
+	      
               headers: {
                 'Content-Type': 'application/json',
 		      
@@ -61,7 +60,7 @@ class HttpService {
         var promiseContent = new Promise((resolve, reject) => {
            fetch(httpUrl+'file/content', {
                method: 'POST',
-		   mode: 'no-cors',
+		  
               headers: {
                 'Content-Type': 'application/json',
 		     
@@ -79,7 +78,7 @@ class HttpService {
      getFile = () => {
         var promiseFile = new Promise((resolve, reject) => {
            fetch(httpUrl+'resumeOS', { 
-		   mode: 'no-cors', 
+		  
 		   headers: {
                 'Content-Type': 'application/json',
 		     
@@ -94,7 +93,7 @@ class HttpService {
      getImg = () => {
          var promiseAnImg = new Promise((resolve, reject) => {
            fetch(httpUrl+'resumeOS',{ 
-		   mode: 'no-cors', 
+		    
 		   headers: {
                 'Content-Type': 'application/json',
 		      
