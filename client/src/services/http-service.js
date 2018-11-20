@@ -15,6 +15,7 @@ class HttpService {
     }
     
     getProjects = (newFileName) => {
+	    console.log(newFileName);
         var promiseProjects = new Promise((resolve, reject) => {
             fetch(httpUrl+'folder/projects', {
               method: 'POST',
@@ -28,8 +29,10 @@ class HttpService {
               })
            }).then(response => {
                 resolve(response.json());
+		     console.log(response.json());
            }) 
         });
+	     console.log(promiseProjects);
         return promiseProjects;
     }
     
