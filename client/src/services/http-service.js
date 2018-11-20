@@ -1,7 +1,7 @@
 import 'whatwg-fetch';
 var fs = require('fs');
 var path = require('path');
-const httpUrl='http://localhost:3004/';
+const httpUrl='18.191.227.92:3004/';
 //const httpUrl='http://10.0.0.15:3004/';
 class HttpService {
 
